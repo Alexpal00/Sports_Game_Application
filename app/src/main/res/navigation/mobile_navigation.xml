@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_update"
+        android:name="com.example.ergasia.ui.update.UpdateFragment"
+        android:label="@string/menu_Update"
+        tools:layout="@layout/fragment_update" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ergasia.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_insert"
+        android:name="com.example.ergasia.ui.insert.InsertFragment"
+        android:label="@string/menu_insert"
+        tools:layout="@layout/fragment_insert" />
+
+    <fragment
+        android:id="@+id/nav_delete"
+        android:name="com.example.ergasia.ui.delete.DeleteFragment"
+        android:label="@string/menu_delete"
+        tools:layout="@layout/fragment_delete" />
+</navigation>

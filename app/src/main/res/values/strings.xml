@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Ergasia</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">SPORTS</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_insert">Insert</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_Update">Update</string>
+    <string name="buttonAthlete">ATHLETE</string>
+    <string name="buttonSport">SPORT</string>
+    <string name="buttonTeam">TEAM</string>
+    <string name="delete_team">TEAM</string>
+    <string name="delete_sport">SPORT</string>
+    <string name="delete_athlete">ATHLETE</string>
+
+    <string name="editTextTextCodeSport">CODE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="queries_array">
+        <item>ATHLETE</item>
+        <item>SPORT</item>
+        <item>TEAM</item>
+    </string-array>
+
+
+    <string-array name="query_description_array">
+        <item>1. Εμφανισε τους αθλητες.</item>
+        <item>2. Εμφανισε τα αθληματα.</item>
+        <item>3. Εμφανισε τις ομαδες.</item>
+    </string-array>
+
+    <string-array name="query_games_array">
+        <item>1. Εμφανισε τους αγωνες που περιεχουν αθλητες.</item>
+        <item>2. Εμφανισε τους αγωνες που περιεχουν ομαδες.</item>
+
+    </string-array>
+
+
+    <string-array name="eidos_array">
+        <item>ΑΤΟΜΙΚΟ</item>
+        <item>ΟΜΑΔΙΚΟ</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>
